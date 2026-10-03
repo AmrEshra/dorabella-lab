@@ -1,0 +1,9 @@
+score    rot dir rev  text
+  -633.5  3  +1  1   lxokmrfkvhnbcpbqbbrxxbpihisnafbfrikvukobborscfbnbreacpivvinaoareaopedsaobrecaskxsarkpik
+  -634.3  3  +1  0   lzomkrdmthpbanbsbbrzzbnghgqpcdbdrgmtumobborqadbpbrecangttgpcocreconefqcobreacqmzqcrmngm
+  -634.3  2  -1  0   hveigbnixlfrqdrcrrbvvrdklkafsnrnbkixyierrebaqnrfrbosqdkxxkfsesbosedopaserboqsaivasbidki
+  -638.8  5  -1  0   rfosqlxsgupbanbmbblffbntutkpcxbxltsghsobbolkaxbpblycantggtpcoclyconyzkcoblyacksfkclsnts
+  -644.0  3  -1  1   lxhkmeskcoguviuduuexxuipopfgtsusepkcbkhuuhefvsuguertvipccpgthterthirqfthuervtfkxftekipk
+  -645.6  6  -1  1   ugrtvoctmyqefseneeoggeszyzpqdcecoztmltreeropfceqeobdfszmmzqdrdobdrsbapdreobfdptgpdotszt
+  -648.5  0  +1  1   bneachvamydrsfrgrrhnnrfzyzidqvrvhzamlaerrehisvrdrhuqsfzmmzdqeqhuqefutiqerhusqianiqhafza
+  -650.8  0  +1  0   bpecahtckyfrqdrirrhpprdxyxgfstrthxcklcerrehgqtrfrhusqdxkkxfseshuseduvgserhuqsgcpgshcdxc

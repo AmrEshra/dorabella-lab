@@ -49,6 +49,11 @@ python3 baseline.py              # Dorabella vs. English ciphers vs. shuffled Do
 
 Dorabella scores better than every shuffle of its own symbols, so the order of the symbols carries some structure. But it scores worse than typical English. Consistent with earlier published work: it is not plain English under a simple substitution, but it is not random either.
 
+### 04 — Elgar's notebook alphabet (`results/04_notebook_key.txt`)
+- A notebook attributed to Elgar (authorship disputed) groups the alphabet by arc orientation: ABC DEF GHI(J) KLM NOP QRS TUV(W) XYZ, with the arc count picking the letter.
+- All 32 alignments of that key were tried (8 rotations x 2 directions x 2 arc orders).
+- Every one gives gibberish. The best scores about −634, far below the −402 the free solver reaches, so this key does not decrypt Dorabella directly.
+
 ## Next ideas
 - Phonetic or abbreviated English (Elgar was fond of wordplay and phonetic spellings).
 - Other languages (Latin, German, French).
