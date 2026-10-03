@@ -1,1 +1,63 @@
 # dorabella-lab
+
+Experiments on the **Dorabella cipher**, the 87-symbol note Edward Elgar sent to Dora Penny in July 1897, unsolved since.
+
+## The cipher
+
+`data/dorabella.txt` holds a consensus transcription (Hauer et al., 2025, built from five independent transcriptions). Each symbol is written as a letter for the orientation of its arcs (`A`–`H`, eight directions) followed by the number of arcs (`1`–`3`). Line lengths are 29, 31 and 27.
+
+```
+A2 E3 B2 A3 A1 C2 G1 A3 D1 H2 B3 F2 F1 B1 F2 C3 F2 F2 C2 E3 E3 F2 B1 H1 H2 H1 C1 B3 F3
+G1 F2 G1 C2 H1 A3 D1 D2 A3 B2 F2 F2 B2 C2 C1 F1 G1 F2 B3 F2 C2 G2 F3 F1 B1 H1 D1 D1 H1 B3 F3
+B2 F3 C2 G2 F3 B2 B1 G2 G3 C1 F3 B2 F2 C2 G2 F1 F3 C1 A3 E3 C1 F3 C2 A3 B1 H1 A3
+```
+
+Some symbols are ambiguous in the original; other transcriptions differ in a few places.
+
+## Running
+
+Python 3, no dependencies. The first run downloads a public-domain English corpus (Norvig's `big.txt`) into `data/corpus/`.
+
+```bash
+cd src
+python3 analysis.py              # frequencies, index of coincidence, English comparison
+python3 control.py --injective   # can the solver crack English of the same length?
+python3 solver.py --injective    # attack Dorabella as a one-to-one substitution
+python3 solver.py                # attack Dorabella as a homophonic substitution
+python3 baseline.py              # Dorabella vs. English ciphers vs. shuffled Dorabella
+```
+
+## Experiment log
+
+### 01 — Statistics (`results/01_analysis.txt`)
+- 20 distinct symbols out of 24 possible; an 87-letter English passage uses about 20 letters on average.
+- Most frequent symbol `F2` = 12.6%, close to English `e`.
+- Index of coincidence 0.0585: between English of the same length (0.065) and random symbols (0.042).
+- Orientation `F` covers 23 of 87 symbols, a strong skew worth explaining.
+
+### 02 — Simple substitution, English (`results/02_solver_english.txt`)
+- Solver: simulated annealing with a 4-gram English model.
+- Control (`control.py`): on 87-letter English passages it recovers the full text in most trials.
+- On Dorabella: no readable text. Restarts do not agree, and only short English-like fragments appear. The homophonic mode overfits to strings of common letters (`thereth...`), as expected with so few symbols.
+
+### 03 — Baselines (`results/03_baseline.txt`)
+| Input | Best score (higher = more English-like) |
+|---|---|
+| Real English ciphers | mean −353 (range −414 to −328) |
+| **Dorabella** | **−402** |
+| Dorabella shuffled | mean −435 (range −450 to −420) |
+
+Dorabella scores better than every shuffle of its own symbols, so the order of the symbols carries some structure. But it scores worse than typical English. Consistent with earlier published work: it is not plain English under a simple substitution, but it is not random either.
+
+## Next ideas
+- Phonetic or abbreviated English (Elgar was fond of wordplay and phonetic spellings).
+- Other languages (Latin, German, French).
+- Treating orientation and arc count as two separate channels.
+- Testing alternative readings of the ambiguous symbols.
+- Transposition before or after substitution.
+
+## References
+- Hauer et al., *Dorabella Cipher as Musical Inspiration* (arXiv:2509.17950).
+- Hauer et al., *Experimental Analysis of the Dorabella Cipher with Statistical Language Models*, HistoCrypt 2021.
+- Schmeh, *Examining the Dorabella Cipher with three lesser-known cryptanalysis methods*, HistoCrypt 2018.
+- Sams, *Elgar's Cipher Letter to Dorabella*, The Musical Times, 1970.

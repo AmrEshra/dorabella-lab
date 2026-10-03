@@ -1,0 +1,33 @@
+Length: 87   distinct symbols: 20
+
+Symbol frequencies:
+  F2  11   12.6%  ###########
+  C2   8    9.2%  ########
+  F3   8    9.2%  ########
+  A3   7    8.0%  #######
+  B2   6    6.9%  ######
+  H1   6    6.9%  ######
+  B1   5    5.7%  #####
+  C1   5    5.7%  #####
+  E3   4    4.6%  ####
+  G1   4    4.6%  ####
+  D1   4    4.6%  ####
+  B3   4    4.6%  ####
+  F1   4    4.6%  ####
+  G2   4    4.6%  ####
+  H2   2    2.3%  ##
+  A2   1    1.1%  #
+  A1   1    1.1%  #
+  C3   1    1.1%  #
+  D2   1    1.1%  #
+  G3   1    1.1%  #
+
+By orientation: {'F': 23, 'B': 15, 'C': 14, 'A': 9, 'G': 9, 'H': 8, 'D': 5, 'E': 4}
+By arc count:   {'2': 33, '1': 29, '3': 25}
+
+Repeated bigrams: F2C2x3, B1H1x3, C2G2x3, F3B2x3, A3D1x2, B3F2x2, F1B1x2, F2F2x2, B3F3x2, G1F2x2, H1A3x2, B2F2x2, G2F3x2, F3C2x2, C1F3x2
+
+                 Dorabella   English(87)   Random(24 symbols)
+  IoC               0.0585        0.0652      0.0417
+  Doubles                4          2.74
+  Distinct              20          19.8

@@ -1,0 +1,3 @@
+Dorabella best score:          -402.3
+English ciphers (n=8):       mean   -352.8  range -413.6 .. -328.3
+Shuffled Dorabella (n=8):    mean   -435.0  range -450.4 .. -420.3
