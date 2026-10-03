@@ -14,6 +14,20 @@ B2 F3 C2 G2 F3 B2 B1 G2 G3 C1 F3 B2 F2 C2 G2 F1 F3 C1 A3 E3 C1 F3 C2 A3 B1 H1 A3
 
 Some symbols are ambiguous in the original; other transcriptions differ in a few places.
 
+`data/dorabella.png` is the cipher as reproduced in Dora Penny's 1937 memoir (Elgar's original card is lost).
+
+### Orientation convention (checked against the image)
+The source paper does not say which letter is which angle. Reading the first symbols of line 1 against the image (A2 E3 B2 A3 A1 C2 G1 A3 ...) gives a consistent picture. The letter names the way the arcs **open** on the page:
+
+| Letter | Opening | Letter | Opening |
+|---|---|---|---|
+| A | right (like `c`) | E | left (like `ɔ`) |
+| B | down-right | F | up-left |
+| C | down (like `m`) | G | up (like `u`) |
+| D | down-left | H | up-right |
+
+So A→H runs clockwise in 45° steps, which confirms the rotational-order assumption used in experiment 04.
+
 ## Running
 
 Python 3, no dependencies. The first run downloads a public-domain English corpus (Norvig's `big.txt`) into `data/corpus/`.
