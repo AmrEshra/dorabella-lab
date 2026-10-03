@@ -60,6 +60,13 @@ Dorabella scores better than every shuffle of its own symbols, so the order of t
 - Best score −560: still gibberish, and worse even than shuffled Dorabella (mean −435).
 - Conclusion: whatever the orientation convention, the notebook alphabet on its own does not decrypt Dorabella. If Elgar used it, he added another step (phonetic spelling, transposition, a keyword shift, etc.).
 
+### 06 — Notebook alphabet + keyword shift (`results/06_notebook_keyword.txt`)
+- Each symbol becomes a letter via the notebook alphabet (24 letters, I/J and V/W merged), then a repeating keyword shifts it back, Vigenere style (p = c − k) or variant Beaufort (p = c + k), mod 24.
+- Keywords: about 20,000 frequent English words plus names and places from Elgar's and Dora's lives (Dora, Dorabella, Penny, Elgar, Alice, Forli, Malvern, Wolverhampton, Enigma, Beacon, Troyte, Liszt...). 32 rotational orientation conventions, two directions: 1.28 million decryptions.
+- Self-test (`--selftest`): English encrypted this way with keyword "malvern" is recovered exactly.
+- On Dorabella the best score is −558 (keyword "leaflets"): gibberish. No personal keyword comes near the top.
+- Conclusion: a notebook alphabet with a single repeating English keyword is ruled out for the rotational conventions.
+
 ## Next ideas
 - Phonetic or abbreviated English (Elgar was fond of wordplay and phonetic spellings).
 - Other languages (Latin, German, French).

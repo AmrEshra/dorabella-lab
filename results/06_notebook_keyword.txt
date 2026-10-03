@@ -1,0 +1,12 @@
+Keywords tried: 20023 x 32 conventions x 2 directions = 1281472 decryptions
+
+  -557.7  (4, -1, True)      leaflets       vig   dvlhedcuunksoheonthuptsagoiemredxonatirfnghdorerndurohznuokrasocmgmpiedsndutmethyshhbot
+  -574.2  (4, -1, True)      epaulets       vig   kllsedcubckdoheotihfptsandipmredddnltirftvhoorertsucohznbdkcasocsvmaiedstsuemethehhsbot
+  -579.1  (4, -1, True)      fearless       vig   ivlvedduankgohfosthipttamoismrfdconotisfsghrorfrsdufohanaokfaspcrgmdieessduhmeuhdshvbou
+  -579.7  (3, 1, True)       savishna       beau  dxksezskohikuxoqtbnfpiciaiovsnofkifenrbbtonbunontraiuxvvoiiigheesolnvanotralsaxxlanshqx
+  -579.9  (0, -1, True)      city           beau  dvryedcyunqioherntolptsdgopumregxotqtiringotoreundbhohzquoqhasofmgsfiedvndbkmetlysoybot
+  -580.3  (3, 1, False)      coroner        beau  nnfaxvuohzdoeedgspedqdbyvtugersreldvidcoffterrotststoallvugqbgigqfbrkhecsfretsaqepvdpud
+  -580.9  (2, 1, True)       toller         vig   ofavexishtfgfynctgufinholrezsleoducbysanttubortseaqmuumehuffridqstsnpesteaqosynfemkpsrv
+  -581.1  (3, 1, True)       drissa         beau  ooxceribeafbfgkitbuofthilabfsfexabcvybxttouklytneinsupmnebfarraxsosvmlsoeinussnobskksas
+  -581.2  (2, -1, False)     tribunals      beau  bnnkbontpexaryecckunesyxluszkvshoktpransmrbligiosvbsbvdoflafedthkneicadxlsxrnnigsmsreev
+  -582.6  (5, 1, False)      dues           vig   olqandfaxtrpdzdgentncnpulssdfpdrusohyyqpeatedpddedgqdzihxsrqrotsfapsicecedgofcontotaqso
