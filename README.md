@@ -53,6 +53,12 @@ Dorabella scores better than every shuffle of its own symbols, so the order of t
 - A notebook attributed to Elgar (authorship disputed) groups the alphabet by arc orientation: ABC DEF GHI(J) KLM NOP QRS TUV(W) XYZ, with the arc count picking the letter.
 - All 32 alignments of that key were tried (8 rotations x 2 directions x 2 arc orders).
 - Every one gives gibberish. The best scores about −634, far below the −402 the free solver reaches, so this key does not decrypt Dorabella directly.
+- Caveat: that test assumed the transcription letters A–H run in rotational order, which the source paper does not state.
+
+### 05 — Notebook alphabet, every orientation assignment (`results/05_notebook_key_all_perms.txt`)
+- Removes the caveat above: tries all 8! = 40,320 ways of assigning the eight orientations to the eight letter groups, for both arc orders (80,640 keys).
+- Best score −560: still gibberish, and worse even than shuffled Dorabella (mean −435).
+- Conclusion: whatever the orientation convention, the notebook alphabet on its own does not decrypt Dorabella. If Elgar used it, he added another step (phonetic spelling, transposition, a keyword shift, etc.).
 
 ## Next ideas
 - Phonetic or abbreviated English (Elgar was fond of wordplay and phonetic spellings).

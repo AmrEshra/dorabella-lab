@@ -1,0 +1,13 @@
+Tried 80640 keys.
+
+score    groups for A..H                      rev  text
+  -560.0  abc qrs ghi xyz tuv nop def klm  1   btrachfazlqopsogoohttosmlmiqnfofhmazyaroorhipfoqohenpsmzzmqnrnhenrsedinrohepniatinhasma
+  -561.3  abc nop qrs klm xyz tuv def ghi  1   bxoacrfamhnuvpuquurxxupihisntfufriamlaouuorsvfunuretvpimmintotretopedstourevtsaxstrapia
+  -564.4  abc qrs ghi klm tuv nop def xyz  1   btrachfamyqopsogoohttoszyziqnfofhzamlaroorhipfoqohenpszmmzqnrnhenrsedinrohepniatinhasza
+  -567.2  abc ghi nop xyz tuv def klm qrs  1   bthacomazrgefieneeotteisrspgdmemosazyaheehopfmegeoldfiszzsgdhdoldhilkpdheolfdpatpdoaisa
+  -569.1  abc klm ghi xyz tuv nop def qrs  1   btlachfazrkopmogoohttomsrsiknfofhsazyaloolhipfokohenpmszzsknlnhenlmedinlohepniatinhamsa
+  -572.4  abc nop qrs xyz klm tuv def ghi  1   bkoacrfazhnuvpuquurkkupihisntfufriazyaouuorsvfunuretvpizzintotretopedstourevtsakstrapia
+  -573.7  abc tuv qrs klm xyz def nop ghi  1   bxuacrpamhtefveqeerxxevihistdpepriamlaueeursfpeterodfvimmitdudroduvonsduerofdsaxsdravia
+  -574.4  ghi klm def xyz qrs nop tuv abc  0   hsligetixbmonkofooessokabadmptoteaixyilooledntomoeupnkaxxamplpeuplkuvdploeunpdisdpeikai
+  -577.6  ghi def nop abc klm qrs tuv xyz  0   hmeigotiayfrqdrprrommrdxyxnfstrtoxiabierreonqtrfrousqdxaaxfsesouseduvnserouqsnimnsoidxi
+  -577.7  tuv ghi nop xyz abc def klm qrs  1   uahtvomtzrgefieneeoaaeisrspgdmemostzytheehopfmegeoldfiszzsgdhdoldhilkpdheolfdptapdotist
