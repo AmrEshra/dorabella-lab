@@ -88,6 +88,13 @@ Dorabella scores better than every shuffle of its own symbols, so the order of t
 - The 9 openings that fit ("my dear", "dear", "Dora", "my Dora", "I am", "I must"...) were each fixed in place and the solver rerun: all give gibberish, scoring worse (−455 to −512) than the free solver (−402).
 - Caveat: holds only for a plain one-to-one substitution, and a misread symbol near the start or end would change the pattern.
 
+### 08 — Elgar's 1899 Enigma programme note (`results/08_enigma_note.txt`)
+- The note ("The Enigma I will not explain – its 'dark saying' must be left unguessed...") was used three ways:
+  1. Every word and 2–3 word phrase as a repeating Vigenere/Beaufort key on the notebook alphabet: 207 keys x 32 conventions x 2. Best −593, gibberish.
+  2. The whole note as a running key from every offset: 256 offsets x 32 x 2. Best −591, gibberish.
+  3. Note words as cribs, fixed wherever the symbol repeat pattern allows, then the free solver fills the rest. "enigma" fits 31 places, "dark saying" and "unguessed" one each, "variations", "connexion", "mystery" and "Dorabella" nowhere. Best −429 ("theme" at position 57), still gibberish and worse than the free solver's −402.
+- Conclusion: the programme note gives no key or crib for Dorabella. Not surprising, since it was written two years later about a different puzzle.
+
 ## Next ideas
 - Phonetic or abbreviated English (Elgar was fond of wordplay and phonetic spellings).
 - Other languages (Latin, German, French).

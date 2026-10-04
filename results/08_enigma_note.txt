@@ -1,0 +1,51 @@
+== 1. Note words and phrases as repeating keys (207 keys x 32 conventions x 2) ==
+    -592.7  (6, -1, False)     largerthemegoes    vig   kiappxgofmoypmmeenherlismsgebhtaxqrsronsalailpebykkmvmlfdiongfxubaxtybblqkisfvpevmgresp
+    -595.7  (7, -1, False)     theconnexionbetvee beau  rtzbleqdkkkuhybommeftmvoonusrruevtursmopmxfdtheevefnaperatdnxxernrcssrnodvitcydoevedqin
+    -598.0  (3, 1, True)       andlessept         beau  lkruqkyolbnofafitfgqxostmblrpzbsutoonodubbudgytrqlenfanoonctonupeghismabeciusxzqsnuutbc
+    -602.6  (2, -1, False)     andlessept         beau  hihtltfnmefetovukvqpvegupcskhgraeunpqntlrrelufkkguoftooppoumefezxxvsetsrumsileypafethcb
+    -604.1  (4, 1, False)      andlessept         vig   opoeicolhrsrafadmaficrnzgrboqnetrzleflcleerizomopbhsaffeefdmrsrxbzydtafebkdlnpaitsremrx
+    -606.8  (4, -1, True)      septprincesses     vig   vvvtaqnadnrfutfciesirlkozaerericsbescisftspekcispussgtonnoudvfzhugtcpqegiofhovlvqedutoy
+    -607.3  (4, -1, True)      princessesthechief vig   zicanddubzqqukqytssirlkozaerdottakiapvclvgpqudectfnougdoxfhssedcddhsmasfiqmmueuheeofhqf
+    -607.4  (6, -1, False)     andi               vig   uvontbxnklpvddbgerlairnoykkkfnbroksblioveelednbkebyxddtbkkpxrslsfenscaciebyufasanslnqks
+
+== 2. Whole note as running key (256 offsets x 32 conventions x 2) ==
+    -591.2  (6, 1, True)       offset 58          beau  ypttnonhalelfssenzotlhhgetgqftpcuaybelglegppepyaeisdtdekollproocprgsfnsesusedvydvesyenl
+    -599.6  (6, 1, False)      offset 141         vig   qddeatiekkhxpqdcyhnnetdinuslbisihqiplottllypkveuthghyskpzyyredibyehdpchusnuchleanksgxfc
+    -599.9  (2, -1, False)     offset 16          vig   orhtvbevornoqmhkrtsipfirrivuohysodosfqaorryrunastntzidqdpfderfxrkqqnlgxanouioeiershapxq
+    -601.7  (5, 1, False)      offset 169         vig   gbcoxyxeggrqggeohqrboomiciqhergpeeannzfxhxttovooditatrelaccbqxtyezptmhtqhgscnsffealafbo
+    -602.8  (1, 1, False)      offset 50          beau  zxayhoxsqkeultsapossmooedoxvatdlybkgkkmhoppftodiotmimgnqghnppaxceaudsoivaefyouozrppyatk
+    -605.8  (5, -1, True)      offset 249         beau  kmbigxdbioretpnktfrpdfiamguacitktikacisborvqurfcuapiprabbaftvenfisuaemrodectiedhhececpy
+    -606.2  (4, -1, True)      offset 18          vig   rlanguntnokgptyiplboffsrnheedblpnounakllucmihiavdonxfslbdexkgazgkkhbyesyeaqdxreapotatsa
+    -609.0  (6, -1, True)      offset 216         vig   ncccnbalxyflyosirascpedktzyyzgapoglzsffatrulcleeevxxtsushhfuebeisifhiulnebyuzxbcakzckmr
+
+== 3. Note words as cribs at every position the symbol pattern allows ==
+  enigma       fits at 31 positions
+  darksaying   fits at 1 positions
+  darksayings  fits at 0 positions
+  unguessed    fits at 1 positions
+  theme        fits at 5 positions
+  variations   fits at 0 positions
+  explain      fits at 19 positions
+  connexion    fits at 0 positions
+  texture      fits at 1 positions
+  another      fits at 19 positions
+  larger       fits at 4 positions
+  notplayed    fits at 4 positions
+  mystery      fits at 0 positions
+  secret       fits at 2 positions
+  hidden       fits at 0 positions
+  riddle       fits at 0 positions
+  dorabella    fits at 0 positions
+  intruse      fits at 19 positions
+
+  Best crib placements (free solver reaches -400 with no crib):
+    -429.1  theme        @57  grmousdofphainavaasrrantptwhedadstofcomaamswidahasleintffthemeslemnlywemaslieworwesonto
+    -436.8  theme        @44  ufrignhiscmetleweenffelocoymahehnoispireernythemendatlossomarandarldbyarendtayifyaniloi
+    -440.5  theme        @12  kscdwordlygethemeeossehayangireroadlxdceecontregeofithallagiciofichfuniceoftindsniodhad
+    -453.4  theme        @21  vsragifalmytchtuttissthemenyoftfiealparttrincftytidochelleyoroidorhdknortidconasnoiahea
+    -454.5  larger       @75  yesgundgpfmiltiviineeitoformadidnogpbgsiisnrldimincaltoppomasancastchrasinclargerangtog
+    -456.9  explain      @ 7  fcreysmexplainavaasccandpdhlomamsdexgeraarshimalastoindxxdlorostorntwhorastiohechosende
+    -457.3  secret       @10  wpgdholdmysecreteeopperayansileloadmudgeegoncleseoficrammasigiofigrfknigeofcindpniodrad
+    -457.6  larger       @ 9  vphscousflargermrroppredldiaturuodsfyshrrhoigurarontgedffdathtonthenwithrongtispitoseds
+    -457.7  texture      @77  kxlegrpesmcandayaarxxadimitcupaprieshelaalrtnpacaroundissiculurouldoftularonutexturedie
+    -458.4  notplayed    @71  wdnextresimolgofootddoguiuymarortuescenoontylromotpalgussumanatpangphyanotplayedyategue
