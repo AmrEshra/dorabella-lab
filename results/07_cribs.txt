@@ -1,0 +1,18 @@
+Opening symbols: A2 E3 B2 A3 A1 C2 G1 A3 D1 H2 B3 F2
+Closing symbols: E3 C1 F3 C2 A3 B1 H1 A3 
+
+== OPENINGS: 9 of 45 fit the symbol pattern ==
+  ruled out: mydeardora, mydearmisspenny, mydearmissdora, mydearestdora, deardora, dearmisspenny, dearmissdora, dearestdora, dorabella, missdora, misspenny, dearchild, mydeargirl, dearlady, mydeardorabella, dearfriend, mydearfriend, thankyou, thanksforthe, weareback, wearehome, wegothome, wegotbackhome, wearrived, wearrivedhome, wereachedhome, arrivedsafe, arrivedsafely, homeagain, iwish, ithink, thisis, thecipher, here, hereis, lookhere
+  mydear                 -473.9  mydearcelfpownogooryyonufuspicocruelbedoodrswcoportiwnullupidirtidnthsidortwiseysirenue
+  dear                   -465.8  dearkturmpinycngnnteencopolisunutormbrannatlyuninthsycommoisasthsachflsanthyslrelstrcor
+  dora                   -455.2  doraftcalymengebeetooegsysumicectsalwareertuncemethingsllsmirithirghquirethniuaouitagsa
+  mydora                 -457.5  mydoraloftheguebeeayyeustswhilelasofcodeedawgleheanigusffshidianidunkwideangiwoywiaouso
+  iam                    -470.0  iamsjtcslbnodpofootaaopuburnecoctuslysmoomtrdconothedpullunemethemphgremothdersaretspus
+  ihope                  -512.4  ihopeampfbyrcurwrrahhrulblsytmrmalpfxporroascmryrantculfflytotantoundstoranctsphstapulp
+  imust                  -471.2  imustrbspgdefleweermmelagandobebrasphsueeurnfbederyoflappadouoryoulyknoueryfonsmnorslas
+  isend                  -477.0  isendowngbutalthttosstlybypurwtwoyngknetteopawtutofralyggyurerofrelfmpretofarpnspronlyn
+  listen                 -482.1  listendtubhormofooniiomybychadodnytuptsoosncrdohongarmyuuyhasangasmgwcasongracticantmyt
+
+== ENDINGS: 0 of 14 fit the symbol pattern ==
+  ruled out: ee, edwardelgar, elgar, yourssincerely, yours, yourstruly, yoursever, yoursaffectionately, yoursaye, ede, eewe, adieu, goodbye, farewell
+

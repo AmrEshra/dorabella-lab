@@ -81,6 +81,13 @@ Dorabella scores better than every shuffle of its own symbols, so the order of t
 - On Dorabella the best score is −558 (keyword "leaflets"): gibberish. No personal keyword comes near the top.
 - Conclusion: a notebook alphabet with a single repeating English keyword is ruled out for the rotational conventions.
 
+### 07 — Letter openings and endings (`results/07_cribs.txt`)
+- Idea: letters of the time opened with stock phrases ("My dear ...", "Dear Miss Penny") and closed with a signature ("E.E.", "Yours ...").
+- Under a one-to-one substitution, repeated letters must sit under repeated symbols. Dorabella opens `A2 E3 B2 A3 A1 C2 G1 A3`: the 4th and 8th symbols match and the first seven differ.
+- That rules out 36 of 45 openings, including "my dear Dora", "dear Miss Penny", "dearest Dora", "Dorabella", "thank you". All 14 endings tested are ruled out, including "E.E.", "Elgar", "Edward Elgar" and every "Yours ..." form.
+- The 9 openings that fit ("my dear", "dear", "Dora", "my Dora", "I am", "I must"...) were each fixed in place and the solver rerun: all give gibberish, scoring worse (−455 to −512) than the free solver (−402).
+- Caveat: holds only for a plain one-to-one substitution, and a misread symbol near the start or end would change the pattern.
+
 ## Next ideas
 - Phonetic or abbreviated English (Elgar was fond of wordplay and phonetic spellings).
 - Other languages (Latin, German, French).
