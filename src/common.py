@@ -17,11 +17,16 @@ def load_cipher(path=os.path.join(DATA, "dorabella.txt")):
         return f.read().split()
 
 
-def load_corpus():
-    """Download (once) and return a public-domain English corpus as lowercase a-z only."""
+def load_corpus(path=None):
+    """Return an English corpus as lowercase a-z only.
+
+    Default: Norvig's big.txt (mostly novels), downloaded once. Set DORABELLA_CORPUS to a text
+    file (e.g. a collection of Victorian letters) to train the scorer on that instead.
+    """
     os.makedirs(CORPUS_DIR, exist_ok=True)
-    path = os.path.join(CORPUS_DIR, "big.txt")
-    if not os.path.exists(path):
+    default = os.path.join(CORPUS_DIR, "big.txt")
+    path = path or os.environ.get("DORABELLA_CORPUS") or default
+    if path == default and not os.path.exists(path):
         urllib.request.urlretrieve(CORPUS_URL, path)
     with open(path, encoding="utf-8", errors="ignore") as f:
         text = f.read().lower()
